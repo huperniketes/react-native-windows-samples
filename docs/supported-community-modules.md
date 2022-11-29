@@ -64,6 +64,4 @@ The React Native team at Microsoft is continually adding native implementations 
 
 ## Help! A module I need doesn't work with Windows and/or macOS!
 
-If you need a module that doesn't currently have a native Windows and/or macOS implementation, please [submit an issue on GitHub](https://github.com/microsoft/react-native-windows/issues/new/choose) and let us know.
-
-Additionally, you can also file an issue on the module repository to let them know that you need Windows and/or macOS support. If you file an additional issue in the module repository, please be sure to link it to the issue in the React Native Windows repo to help us track.
+If you need a module that doesn't currently have a native Windows and/or macOS implementation, please submit an issue on the module's repository to let them know that you need Windows and/or macOS support. Check with the module's maintainers and perhaps you can submit a PR with an implementation. You can use tools like [react-native-xaml](https://github.com/microsoft/react-native-xaml) and [react-native-winrt](https://github.com/microsoft/react-native-winrt) to help quickly bridge to native APIs.
